@@ -1,0 +1,11 @@
+name = "global-juggernaut-ebk"
+main = "src/ai-core-backend.js"
+compatibility_date = "2026-01-19"
+
+[[routes]]
+pattern = "/api/ai"
+zone_name = ""
+
+[[routes]]
+pattern = "/*"
+zone_name = ""
